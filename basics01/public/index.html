@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>TypesScript Basics</h3>
+    <p>open console to see the outputs</p>
+    <p>
+        Simple file structure:<br>
+        in terminal: "tsc --init"<br>
+        put "main.ts" in src folder <br>
+        put all other public files in public folder<br>
+        in "tsconfig.json", uncomment "outDir" and "roodDir" and give the path to respective file<br>
+        "outDir": "./public",<br>
+        "rootDir": "./src", <br>
+        to avoid compiling other .ts files outside src folder, add '"include": ["src"]' to "tsconfig.json"<br>
+
+    </p>
+
+    <script src='main.js'></script>
+</body>
+
+</html>
